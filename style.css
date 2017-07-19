@@ -19,11 +19,12 @@ body {
 }
 
 body > div {
+  width: 500px;
   border: 1px solid yellow;
   background-color: white;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 
 #site_header {
@@ -112,7 +113,14 @@ form {
 }
 
 #first_name {
-  margin-right: 5px;
+  margin-right: 10px;
+  border: none;
+  padding: 5px;
+}
+
+#last_name {
+  border: none;
+  padding: 5px;
 }
 
 .city_container {
